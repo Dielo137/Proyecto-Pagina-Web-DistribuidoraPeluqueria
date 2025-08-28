@@ -1,9 +1,13 @@
 import { Module } from '@nestjs/common';
-import { AppController } from './app.controller';
+import { MongooseModule } from '@nestjs/mongoose';
+
+import { AppController } from './app.controller'; // <-- ¡LÍNEA AÑADIDA! ✅
 import { AppService } from './app.service';
 
 @Module({
-  imports: [],
+  imports: [
+    MongooseModule.forRoot('mongodb://localhost/distribuidora-db'),
+  ],
   controllers: [AppController],
   providers: [AppService],
 })
