@@ -140,3 +140,9 @@ vite.config.ts.timestamp-*
 
 # Environment variables
 .env
+
+# Archivos de configuración del Editor
+.vscode/
+
+# Archivos del Sistema Operativo
+.DS_Store
