@@ -10,7 +10,7 @@ El proyecto se encuentra actualmente en la fase de planificación y diseño. La 
 
 *   [✅] **Fase 0: Planificación y Diseño Arquitectónico**
 *   [⏳] **Fase 1: Preparación del Entorno y Backend (API)**
-*   [⬜️] **Fase 2: Desarrollo del Frontend (Cliente)**
+*   [⏳] **Fase 2: Desarrollo del Frontend (Cliente)**
 *   [⬜️] **Fase 3: Desarrollo del Frontend (Administrador)**
 *   [⬜️] **Fase 4: Despliegue y Pruebas**
 
